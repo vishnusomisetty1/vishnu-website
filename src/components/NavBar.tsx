@@ -21,6 +21,7 @@ const NavBar = () => {
           </Link>
         </li>
       </ul>
+      <hr className="mt-4 mb-8" /> {/* Line under the navigation bar */}
     </nav>
   );
 };

@@ -5,7 +5,7 @@ const Youtube = () => {
   return (
     <div className="text-center">
       <NavBar />
-      <hr className="mt-4 mb-8" /> {/* Line under the navigation bar */}
+    
       <h1 className="text-4xl mb-4">Youtube</h1> {/* Title */}
       <div className="flex flex-col items-center space-y-4"> {/* Centered container for videos */}
         <iframe className="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/AIx5nDbBGlo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
